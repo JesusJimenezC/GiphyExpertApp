@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import { useImmer } from "use-immer";
 import { AddCategory, GifGrid } from "./components";
 
-export const GifExpertApp = (): ReactElement => {
+export const GiphyExpertApp = (): ReactElement => {
   const [categories, setCategories] = useImmer<string[]>([
     "One Punch",
     "Samurai X",
@@ -18,7 +18,7 @@ export const GifExpertApp = (): ReactElement => {
 
   return (
     <>
-      <h1>GifExpertApp</h1>
+      <h1>GiphyExpertApp</h1>
 
       <AddCategory onAddCategory={onAddCategory} />
 

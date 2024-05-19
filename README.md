@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# GiphyExpertApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+GiphyExpertApp is a web application created to explore various functionalities and best practices in React development. This project focuses on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **useState**: Managing state within components.
+- **useImmerState from the Immer library**: Understanding why it can be convenient to replace useState and its advantages.
+- **API Calls**: Fetching data from APIs and improving this process using libraries such as use-async-effect to avoid unreadable code.
+- **ESLint Integrations**: Maintaining a consistent and readable code standard.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **State Management**: Utilizing useState and useImmerState for efficient state management.
+- **API Fetching**: Implementing API calls to fetch data from Giphy.
+- **Async Effects**: Using use-async-effect to handle asynchronous operations cleanly.
+- **Code Quality**: Applying ESLint configurations to ensure high code quality and readability.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/JesusJimenezC/GiphyExpertApp.git
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+    ```bash
+    cd GiphyExpertApp
+    ```
+
+3. Install the dependencies:
+    ```bash
+    bun install
+    ```
+
+4. Start the application:
+    ```bash
+    bun run dev
+    ```
+
+The application will be available at `http://localhost:5173`.
+
+## Usage
+
+1. Open the application in your browser.
+2. Explore the features by searching for GIFs using the Giphy API.
+3. Observe how state management and asynchronous operations are handled within the application.
+
+## License
+
+This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+
+## Contact
+
+Jesús Jiménez - [jesus.jimenezc.mx@gmail.com](mailto:jesus.jimenezc.mx@gmail.com)
+
+Project Link: [GiphyExpertApp - Demo](https://giphy-expert-app.vercel.app/)

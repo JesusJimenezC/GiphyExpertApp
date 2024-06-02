@@ -54,4 +54,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 Jesús Jiménez - [jesus.jimenezc.mx@gmail.com](mailto:jesus.jimenezc.mx@gmail.com)
 
-Project Link: [GiphyExpertApp - Demo](https://giphy-expert-app.vercel.app/)
+Project Link: [GiphyExpertApp - Demo](https://giphyxpt.vercel.app/)
